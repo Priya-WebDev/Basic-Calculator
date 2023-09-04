@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            CALCULATOR
+        </h1>
+    </header>
+    <main id="container">
+        <div id="answerContainer">          
+            <div id="mainAns">0</div>
+            <div id="prevAns"></div>
+        </div>
+        <div id="gridContainer0">
+            <button  class="inputButton" id="clearButton">AC</button>
+            <button class="inputButton" id="deleteButton">DEL</button>
+            <button class="inputButton operation">/</button>
+        </div>
+        <div id="gridContainer1">
+            <button class="inputButton data">1</button>
+            <button class="inputButton data">2</button>
+            <button class="inputButton data">3</button>
+            <button class="inputButton operation">*</button>
+            <button class="inputButton data">4</button>
+            <button class="inputButton data">5</button>
+            <button class="inputButton data">6</button>
+            <button class="inputButton operation">+</button>
+            <button class="inputButton data">7</button>
+            <button class="inputButton data">8</button>
+            <button class="inputButton data">9</button>
+            <button class="inputButton operation">-</button>
+        </div>
+
+        <div id="gridContainer2">
+            <button class="inputButton data">.</button>
+            <button class="inputButton data">0</button>
+            <button class="inputButton" id="equalOperator">=</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
